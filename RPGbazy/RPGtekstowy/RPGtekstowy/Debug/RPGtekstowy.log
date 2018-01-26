@@ -1,2 +1,6 @@
-﻿  Game.cpp
+﻿  Main.cpp
+e:\hemofobia\documents\visualprojects\rpgbazy\rpgtekstowy\rpgtekstowy\main.cpp(7): warning C4244: "argument": konwersja z "time_t" do "unsigned int", możliwa utrata danych
+  Game.cpp
+  Character.cpp
+  Generowanie kodu...
   RPGtekstowy.vcxproj -> E:\Hemofobia\Documents\VisualProjects\RPGbazy\RPGtekstowy\Debug\RPGtekstowy.exe

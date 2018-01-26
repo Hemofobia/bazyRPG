@@ -1,12 +1,9 @@
 #pragma once
 
-#include <iostream>
-#include <string>
+#include "Character.h"
 #include "Functions.h"
 #include <iomanip>
 #include <ctime>
-
-using namespace std;
 
 class Game {
 public:

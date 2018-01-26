@@ -45,7 +45,7 @@ void Game::newGame() {
 	cout << "1: Cz³owiek (atrybuty pocz¹tkowe: zdrowie: 12, mana: 12, si³a: 12, magia: 12, zrêcznoœæ: 12, kondycja: 12" << endl;
 	cout << "2: Elf (atrybuty pocz¹tkowe: zdrowie: 10, mana: 16, si³a: 10, magia: 14, zrêcznoœæ: 14, kondycja: 10" << endl;
 	cout << "3: Pó³elf (atrybuty pocz¹tkowe: zdrowie: 11, mana: 14, si³a: 11, magia: 13, zrêcznoœæ: 13, kondycja: 11" << endl;
-	cout << "4: Krasnolud (atrybuty pocz¹tkowe: zdrowie: 16, mana: 18, si³a: 15, magia: 9, zrêcznoœæ: 11, kondycja: 13" << endl;
+	cout << "4: Krasnolud (atrybuty pocz¹tkowe: zdrowie: 16, mana: 8, si³a: 15, magia: 9, zrêcznoœæ: 11, kondycja: 13" << endl;
 	cout << "5: Wró¿ka (atrybuty pocz¹tkowe: zdrowie: 8, mana: 20, si³a: 8, magia: 18, zrêcznoœæ: 13, kondycja: 9" << endl;
 	cout << "6: Pomoc" << endl;
 	cout << "9: Wróæ do menu" << endl;

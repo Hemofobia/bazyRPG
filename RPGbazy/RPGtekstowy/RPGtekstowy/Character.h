@@ -2,7 +2,8 @@
 
 #include <iostream>
 #include <string>
-#include <mysql.h>
+#include <stdio.h>
+#include "sqlite3.h"
 
 using namespace std;
 

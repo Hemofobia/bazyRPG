@@ -39,7 +39,7 @@ void Game::newGame() {
 		<< "Tylko od Ciebie zale¿y kim siê staniesz i jak potocz¹ siê Twoje dalsze losy." << endl
 		<< "Lecz zanim stworzysz swoj¹ postaæ pragnê Ciê ostrzec" << endl << endl
 		<< "JEŒLI ŒMIERÆ CIÊ DOPADNIE, NIE DOSTANIESZ DRUGIEJ SZANSY, DLATEGO B¥D OSTRO¯NY..." << endl
-		<< "NIEBEZPIECZEÑSTWO MO¯E SIÊ CZAIÆ ZA KA¯DYM KROKIEM!!!" << endl << endl
+		<< "NIEBEZPIECZEÑSTWO MO¯E SIÊ CZAIÆ NA KA¯DYM KROKU!!!" << endl << endl
 		<< "Nie zra¿aj siê jednak, lecz pamiêtaj, ¿e aby staæ siê kimœ wielkim, nie ma drogi na skróty!" << endl 
 		<< "A teraz wybierz jak¹ ras¹ chcesz zagraæ (jeœli grasz w t¹ grê po raz pierwszy wybierz 6):"<< endl << endl;
 	cout << "1: Cz³owiek (atrybuty pocz¹tkowe: zdrowie: 12, mana: 12, si³a: 12, magia: 12, zrêcznoœæ: 12, kondycja: 12" << endl;

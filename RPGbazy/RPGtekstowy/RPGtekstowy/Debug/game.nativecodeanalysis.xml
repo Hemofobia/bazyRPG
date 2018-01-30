@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>e:\hemofobia\documents\visualprojects\rpgbazy\rpgtekstowy\rpgtekstowy\</FILEPATH>
+      <FILENAME>game.cpp</FILENAME>
+      <LINE>77</LINE>
+      <COLUMN>21</COLUMN>
+    </SFA>
+    <DEFECTCODE>6289</DEFECTCODE>
+    <DESCRIPTION>Incorrect operator:  mutual exclusion over || is always a non-zero constant.  Did you intend to use &amp;&amp; instead?</DESCRIPTION>
+    <FUNCTION>Game::newGame</FUNCTION>
+    <DECORATED>?newGame@Game@@QAEXXZ</DECORATED>
+    <FUNCLINE>35</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>e:\hemofobia\documents\visualprojects\rpgbazy\rpgtekstowy\rpgtekstowy\</FILEPATH>
+      <FILENAME>game.cpp</FILENAME>
+      <LINE>97</LINE>
+      <COLUMN>23</COLUMN>
+    </SFA>
+    <DEFECTCODE>6289</DEFECTCODE>
+    <DESCRIPTION>Incorrect operator:  mutual exclusion over || is always a non-zero constant.  Did you intend to use &amp;&amp; instead?</DESCRIPTION>
+    <FUNCTION>Game::newGame</FUNCTION>
+    <DECORATED>?newGame@Game@@QAEXXZ</DECORATED>
+    <FUNCLINE>35</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>e:\hemofobia\documents\visualprojects\rpgbazy\rpgtekstowy\rpgtekstowy\</FILEPATH>
+      <FILENAME>game.cpp</FILENAME>
+      <LINE>117</LINE>
+      <COLUMN>23</COLUMN>
+    </SFA>
+    <DEFECTCODE>6289</DEFECTCODE>
+    <DESCRIPTION>Incorrect operator:  mutual exclusion over || is always a non-zero constant.  Did you intend to use &amp;&amp; instead?</DESCRIPTION>
+    <FUNCTION>Game::newGame</FUNCTION>
+    <DECORATED>?newGame@Game@@QAEXXZ</DECORATED>
+    <FUNCLINE>35</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>e:\hemofobia\documents\visualprojects\rpgbazy\rpgtekstowy\rpgtekstowy\</FILEPATH>
+      <FILENAME>game.cpp</FILENAME>
+      <LINE>137</LINE>
+      <COLUMN>23</COLUMN>
+    </SFA>
+    <DEFECTCODE>6289</DEFECTCODE>
+    <DESCRIPTION>Incorrect operator:  mutual exclusion over || is always a non-zero constant.  Did you intend to use &amp;&amp; instead?</DESCRIPTION>
+    <FUNCTION>Game::newGame</FUNCTION>
+    <DECORATED>?newGame@Game@@QAEXXZ</DECORATED>
+    <FUNCLINE>35</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>e:\hemofobia\documents\visualprojects\rpgbazy\rpgtekstowy\rpgtekstowy\</FILEPATH>
+      <FILENAME>game.cpp</FILENAME>
+      <LINE>157</LINE>
+      <COLUMN>23</COLUMN>
+    </SFA>
+    <DEFECTCODE>6289</DEFECTCODE>
+    <DESCRIPTION>Incorrect operator:  mutual exclusion over || is always a non-zero constant.  Did you intend to use &amp;&amp; instead?</DESCRIPTION>
+    <FUNCTION>Game::newGame</FUNCTION>
+    <DECORATED>?newGame@Game@@QAEXXZ</DECORATED>
+    <FUNCLINE>35</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>e:\hemofobia\documents\visualprojects\rpgbazy\rpgtekstowy\rpgtekstowy\</FILEPATH>
+      <FILENAME>game.cpp</FILENAME>
+      <LINE>238</LINE>
+      <COLUMN>23</COLUMN>
+    </SFA>
+    <DEFECTCODE>6289</DEFECTCODE>
+    <DESCRIPTION>Incorrect operator:  mutual exclusion over || is always a non-zero constant.  Did you intend to use &amp;&amp; instead?</DESCRIPTION>
+    <FUNCTION>Game::setSex</FUNCTION>
+    <DECORATED>?setSex@Game@@QAEXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z</DECORATED>
+    <FUNCLINE>208</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>e:\hemofobia\documents\visualprojects\rpgbazy\rpgtekstowy\rpgtekstowy\</FILEPATH>
+      <FILENAME>game.cpp</FILENAME>
+      <LINE>258</LINE>
+      <COLUMN>23</COLUMN>
+    </SFA>
+    <DEFECTCODE>6289</DEFECTCODE>
+    <DESCRIPTION>Incorrect operator:  mutual exclusion over || is always a non-zero constant.  Did you intend to use &amp;&amp; instead?</DESCRIPTION>
+    <FUNCTION>Game::setSex</FUNCTION>
+    <DECORATED>?setSex@Game@@QAEXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z</DECORATED>
+    <FUNCLINE>208</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>e:\hemofobia\documents\visualprojects\rpgbazy\rpgtekstowy\rpgtekstowy\</FILEPATH>
+      <FILENAME>game.cpp</FILENAME>
+      <LINE>294</LINE>
+      <COLUMN>22</COLUMN>
+    </SFA>
+    <DEFECTCODE>6289</DEFECTCODE>
+    <DESCRIPTION>Incorrect operator:  mutual exclusion over || is always a non-zero constant.  Did you intend to use &amp;&amp; instead?</DESCRIPTION>
+    <FUNCTION>Game::setName</FUNCTION>
+    <DECORATED>?setName@Game@@QAEXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z</DECORATED>
+    <FUNCLINE>270</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

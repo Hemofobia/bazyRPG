@@ -9,12 +9,18 @@ Character::Character(){
 Character::~Character(){
 
 }
-void createCharacter(string r, string p, string i) {
+void Character::createCharacter(string r, string p, string i) {
 	string rasa = r;
 	string plec = p;
 	string imie = i;
-	MYSQL mysql;
-	mysql_init(&mysql);
-	mysql_real_connect(&mysql, "localhost", "root", "password", "rpg", 0, NULL, 0);
-	mysql_query(&mysql, "INSERT ");
+	sqlite3 *db;
+	int rc;
+	rc = sqlite3_open("E:\sqlite\rpg.db", &db);
+	if (rc) {
+		fprintf(stderr, "Can't open database: %s\n", sqlite3_errmsg(db));
+			}
+	else {
+		fprintf(stderr, "Opened database successfully\n");
+	}
+	sqlite3_close(db);
 }

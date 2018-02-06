@@ -1,11 +1,2 @@
-﻿  Main.cpp
-e:\hemofobia\documents\visualprojects\rpgbazy\rpgtekstowy\rpgtekstowy\main.cpp(7): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-  Game.cpp
-  Character.cpp
-e:\hemofobia\documents\visualprojects\rpgbazy\rpgtekstowy\rpgtekstowy\character.cpp(18): warning C4129: 's': unrecognized character escape sequence
-  Compiling...
-  Generating Code...
-Character.obj : error LNK2019: unresolved external symbol _sqlite3_close referenced in function "public: void __thiscall Character::createCharacter(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?createCharacter@Character@@QAEXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@00@Z)
-Character.obj : error LNK2019: unresolved external symbol _sqlite3_open referenced in function "public: void __thiscall Character::createCharacter(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?createCharacter@Character@@QAEXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@00@Z)
-Character.obj : error LNK2019: unresolved external symbol _sqlite3_errmsg referenced in function "public: void __thiscall Character::createCharacter(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?createCharacter@Character@@QAEXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@00@Z)
-E:\Hemofobia\Documents\VisualProjects\RPGbazy\RPGtekstowy\Debug\RPGtekstowy.exe : fatal error LNK1120: 3 unresolved externals
+﻿  Game.cpp
+  RPGtekstowy.vcxproj -> E:\Hemofobia\Documents\GitHub\bazyRPG\RPGbazy\RPGtekstowy\Debug\RPGtekstowy.exe

@@ -1,9 +1,10 @@
 #pragma once
 
-#include "Character.h"
 #include "Functions.h"
+#include "Character.h"
 #include <iomanip>
 #include <ctime>
+#include <vector>
 
 class Game {
 public:
@@ -18,6 +19,8 @@ public:
 	void help();
 	void setSex(string race);
 	void setName(string race, string gender);
+	void play();
+	void loadGame();
 
 	//Accessors
 	inline bool getPlaying() const { return this -> playing; }

@@ -24,6 +24,7 @@ void Game::mainMenu() {
 		Game::newGame();
 		break;
 	case 2:
+		Game::loadGame();
 		break;
 	case 0:
 		playing = false;
@@ -53,108 +54,98 @@ void Game::newGame() {
 	cout << endl << "Wybór: ";
 	cin >> choice;
 	system("cls");
+	int decision;
 	switch (choice){
 	case 1:
-		cout << "Czy na pewno cz³owiek jest Twoim wyborem?" << endl << endl;
-		cout << "1: Tak" << endl;
-		cout << "2: Nie" << endl;
-		cout << endl << "Wybór: ";
 		do {
-			cin >> choice;
-			if (choice == 1) {
-				//dodaj rasê i statystyki do bazy
-				system("cls");
-				rasa = "Cz³owiek";
-				Game::setSex(rasa);
-			}
-			else if (choice == 2) {
-				system("cls");
-				Game::newGame();
-			}
-			else {
-				cout << "Z³a wartoœæ";
-			}
-		} while (choice!=1 || choice!=2);
+			cout << "Czy na pewno cz³owiek jest Twoim wyborem?" << endl << endl;
+			cout << "1: Tak" << endl;
+			cout << "2: Nie" << endl;
+			cout << endl << "Wybór: ";
+			cin >> decision;
+			system("cls");
+		} while (decision!=1 && decision!=2);
+		if (decision == 1) {
+			system("cls");
+			rasa = "Cz³owiek";
+			Game::setSex(rasa);
+		} else if (decision == 2) {
+			system("cls");
+			Game::newGame();
+		}
 		break;
 	case 2:
-		cout << "Czy na pewno elf jest Twoim wyborem?" << endl << endl;
-		cout << "1: Tak" << endl;
-		cout << "2: Nie" << endl;
-		cout << endl << "Wybór: ";
-		do {
-			cin >> choice;
-			if (choice == 1) {
-				//dodaj rasê i statystyki do bazy
-				system("cls");
-				rasa = "Elf";
-				Game::setSex(rasa);
-			}
-			else if (choice == 2) {
-				system("cls");
-				Game::newGame();
-			}
-			else cout << "Z³a wartoœæ";
-		} while (choice != 1 || choice != 2);
+		do{
+			cout << "Czy na pewno elf jest Twoim wyborem?" << endl << endl;
+			cout << "1: Tak" << endl;
+			cout << "2: Nie" << endl;
+			cout << endl << "Wybór: ";
+			cin >> decision;
+			system("cls");
+		} while (decision != 1 && decision != 2);
+		if (decision == 1) {
+			system("cls");
+			rasa = "Elf";
+			Game::setSex(rasa);
+		} else if (decision == 2) {
+			system("cls");
+			Game::newGame();
+		}
 		break;
 	case 3:
-		cout << "Czy na pewno pó³elf jest Twoim wyborem?" << endl << endl;
-		cout << "1: Tak" << endl;
-		cout << "2: Nie" << endl;
-		cout << endl << "Wybór: ";
-		do {
-			cin >> choice;
-			if (choice == 1) {
-				//dodaj rasê i statystyki do bazy
-				system("cls");
-				rasa = "Pó³elf";
-				Game::setSex(rasa);
-			}
-			else if (choice == 2) {
-				system("cls");
-				Game::newGame();
-			}
-			else cout << "Z³a wartoœæ";
-		} while (choice != 1 || choice != 2);
+		do{
+			cout << "Czy na pewno pó³elf jest Twoim wyborem?" << endl << endl;
+			cout << "1: Tak" << endl;
+			cout << "2: Nie" << endl;
+			cout << endl << "Wybór: ";
+			cin >> decision;
+			system("cls");
+			
+		} while (decision != 1 && decision != 2);
+		if (decision == 1) {
+			system("cls");
+			rasa = "Pó³elf";
+			Game::setSex(rasa);
+		} else if (decision == 2) {
+			system("cls");
+			Game::newGame();
+		}
 		break;
 	case 4:
-		cout << "Czy na pewno krasnolud jest Twoim wyborem?" << endl << endl;
-		cout << "1: Tak" << endl;
-		cout << "2: Nie" << endl;
-		cout << endl << "Wybór: ";
-		do {
-			cin >> choice;
-			if (choice == 1) {
-				//dodaj rasê i statystyki do bazy
-				system("cls");
-				rasa = "Krasnolud";
-				Game::setSex(rasa);
-			}
-			else if (choice == 2) {
-				system("cls");
-				Game::newGame();
-			}
-			else cout << "Z³a wartoœæ";
-		} while (choice != 1 || choice != 2);
+		do{
+			cout << "Czy na pewno krasnolud jest Twoim wyborem?" << endl << endl;
+			cout << "1: Tak" << endl;
+			cout << "2: Nie" << endl;
+			cout << endl << "Wybór: ";
+			cin >> decision;
+			system("cls");
+		} while (decision != 1 && decision != 2);
+		if (decision == 1) {
+			system("cls");
+			rasa = "Krasnolud";
+			Game::setSex(rasa);
+		} else if (decision == 2) {
+			system("cls");
+			Game::newGame();
+		}
 		break;
 	case 5:
-		cout << "Czy na pewno wró¿ka jest Twoim wyborem?" << endl << endl;
-		cout << "1: Tak" << endl;
-		cout << "2: Nie" << endl;
-		cout << endl << "Wybór: ";
-		do {
-			cin >> choice;
-			if (choice == 1) {
-				//dodaj rasê i statystyki do bazy
-				system("cls");
-				rasa = "Wró¿ka";
-				Game::setSex(rasa);
-			}
-			else if (choice == 2) {
-				system("cls");
-				Game::newGame();
-			}
-			else cout << "Z³a wartoœæ";
-		} while (choice != 1 || choice != 2);
+		do{
+			cout << "Czy na pewno wró¿ka jest Twoim wyborem?" << endl << endl;
+			cout << "1: Tak" << endl;
+			cout << "2: Nie" << endl;
+			cout << endl << "Wybór: ";
+			cin >> decision;
+			system("cls");
+		} while (decision != 1 && decision != 2);
+		if (decision == 1) {
+			system("cls");
+			rasa = "Wró¿ka";
+			Game::setSex(rasa);
+		} else if (decision == 2) {
+			system("cls");
+			Game::newGame();
+		}
 		break;
 	case 6:
 		pomoc = true;
@@ -206,6 +197,7 @@ void Game::help() {
 	if (choice == 0) pomoc = false;
 }
 void Game::setSex(string race) {
+	int decision;
 	string char_race = race;
 	system("cls");
 	cout << rasa << endl << "Wybierz p³eæ postaci." << endl << endl
@@ -218,45 +210,40 @@ void Game::setSex(string race) {
 	system("cls");
 	switch (choice) {
 	case 1:
-		cout << "Czy na pewno kobieta jest Twoim wyborem?" << endl << endl;
-		cout << "1: Tak" << endl;
-		cout << "2: Nie" << endl;
-		cout << endl << "Wybór: ";
-		do {
-			cin >> choice;
-			if (choice == 1) {
-				//dodaj p³eæ
-				system("cls");
-				sex = "Kobieta";
-				Game::setName(char_race, sex);
-			}
-			else if (choice == 2) {
-				system("cls");
-				Game::setSex(char_race);
-			}
-			else cout << "Z³a wartoœæ";
-		} while (choice != 1 || choice != 2);
+		do{
+			cout << "Czy na pewno kobieta jest Twoim wyborem?" << endl << endl;
+			cout << "1: Tak" << endl;
+			cout << "2: Nie" << endl;
+			cout << endl << "Wybór: ";
+			cin >> decision;
+			system("cls");
+		} while (decision != 1 && decision != 2);
+		if (decision == 1) {
+			system("cls");
+			sex = "Kobieta";
+			Game::setName(char_race, sex);
+		} else if (decision == 2) {
+			system("cls");
+			Game::setSex(char_race);
+		}
 		break;
 	case 2:
-		cout << "Czy na pewno mê¿czyzna jest Twoim wyborem?" << endl << endl;
-		cout << "1: Tak" << endl;
-		cout << "2: Nie" << endl;
-		cout << endl << "Wybór: ";
-		do {
-			cin >> choice;
-			if (choice == 1) {
-				//dodaj p³eæ
-				system("cls");
-				sex = "Mê¿czyzna";
-				Game::setName(char_race, sex);
-			}
-			else if (choice == 2) {
-				system("cls");
-				Game::setSex(rasa);
-			}
-			else cout << "Z³a wartoœæ";
-		} while (choice != 1 || choice != 2);
-		break;
+		do{
+			cout << "Czy na pewno mê¿czyzna jest Twoim wyborem?" << endl << endl;
+			cout << "1: Tak" << endl;
+			cout << "2: Nie" << endl;
+			cout << endl << "Wybór: ";
+			cin >> decision;
+			system("cls");
+		} while (decision != 1 && decision != 2);
+		if (decision == 1) {
+			system("cls");
+			sex = "Mê¿czyzna";
+			Game::setName(char_race, sex);
+		} else if (decision == 2) {
+			system("cls");
+			Game::setSex(rasa);
+		}break;
 	case 9:
 		Game::mainMenu();
 		break;
@@ -268,6 +255,7 @@ void Game::setSex(string race) {
 	}
 }
 void Game::setName(string race, string gender) {
+	int decision;
 	string char_race = race;
 	string char_sex = gender;
 	system("cls");
@@ -275,21 +263,60 @@ void Game::setName(string race, string gender) {
 	cout << "WprowadŸ imiê swojej postaci:" << endl << endl;
 	cin >> name;
 	system("cls");
-	cout << "Czy na pewno imiê Twojej postaci to: " << name << "?" << endl;
-	cout << endl << "1: Tak" << endl;
-	cout << "2: Nie" << endl;
-	cout << endl << "Wybór: ";
-	do {
-		cin >> choice;
-		if (choice == 1) {
-			//dodaj imiê
-			system("cls");
-			//Character::createCharacter(char_race, sex, name);
-		}
-		else if (choice == 2) {
-			system("cls");
-			Game::setName(char_race, char_sex);
-		}
-		else cout << "Z³a wartoœæ";
-	} while (choice != 1 || choice != 2);
+	do{
+		cout << "Czy na pewno imiê Twojej postaci to: " << name << "?" << endl;
+		cout << endl << "1: Tak" << endl;
+		cout << "2: Nie" << endl;
+		cout << endl << "Wybór: ";
+		cin >> decision;
+		system("cls");
+	} while (decision != 1 && decision != 2);
+	if (decision == 1) {
+		Character newCharacter;
+		system("cls");
+		newCharacter.createCharacter(char_race, sex, name);
+	}
+	else if (decision == 2) {
+		system("cls");
+		Game::setName(char_race, char_sex);
+	}
+}
+void Game::play() {
+	cout << "Tu bêdzie gra" << endl;
+	Sleep(3000);
+}
+void Game::loadGame() {
+	sqlite3* db;
+	sqlite3_open("rpg.db", &db);
+
+	sqlite3_stmt* showStmt;
+	sqlite3_prepare_v2(db, "select * from characters", -1, &showStmt, NULL);
+	cout.width(30);
+	cout << left<< "Imiê:";
+	cout.width(20);
+	cout << left << "Rasa:"; 
+	cout.width(15);
+	cout << left << "P³eæ:";
+	cout.width(10);
+	cout << left << "Level:";
+	cout.width(40);
+	cout << left << "Mapa" << endl;
+	int i = 1;
+	while (sqlite3_step(showStmt) == SQLITE_ROW) {
+		cout << i << ". ";
+		cout.width(27);
+		cout << (char*)sqlite3_column_text(showStmt, 0);
+		cout.width(20);
+		cout << (char*)sqlite3_column_text(showStmt, 1);
+		cout.width(15);
+		cout << (char*)sqlite3_column_text(showStmt, 2);
+		cout.width(10);
+		cout << sqlite3_column_int(showStmt, 12);
+		cout.width(40);
+		cout << (char*)sqlite3_column_text(showStmt, 15) << endl;
+		i++;
+	}
+	sqlite3_finalize(showStmt);
+	sqlite3_close(db);
+	Sleep(10000);
 }
